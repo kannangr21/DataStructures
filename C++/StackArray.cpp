@@ -56,7 +56,7 @@ int main(){
 			}
 
 			case 3:{
-				if(index == -1){ // Checks data in stack
+				if(top == -1){ // Checks data in stack
 					cout<<"Stack is empty!";
 				}
 				else{			 // Displays stack
@@ -66,7 +66,7 @@ int main(){
 			}
 
 			case 4:{ // Display the top index in the stack (Last updated data)
-				if(index == -1)
+				if(top == -1)
 				cout<<"No elements in the stack";
 				else
 				cout<<"Top : "<<top;
